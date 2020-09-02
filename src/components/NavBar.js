@@ -11,10 +11,10 @@ export default function NavBar() {
     return (
         <Nav>
 
-            <Link to = '/beachbitemenu'>
+            <Link to = '/'>
                 <img src = {beachLogo} alt = 'Beach Bite Logo' />
             </Link>
-            
+
             <Link to = '/dosrocas'>
                 <img src = {rocasLogo} alt = 'Dos Rocas Logo' />
             </Link>

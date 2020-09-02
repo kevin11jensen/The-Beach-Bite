@@ -11,9 +11,9 @@ export default function LandingPage() {
     return (
         <LandingWrapper>
             <Switch>
-                <Route path = '/beachbitemenu' component = {BeachBiteMenu} />
+                <Route exact path = '/' component = {BeachBiteMenu} />
                 <Route path = '/dosrocas' component = {DosRocasMenu} />
-            </Switch>
+                </Switch>
         </LandingWrapper>
     );
 }
