@@ -1,3 +1,42 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline: 0;
+  /* border: 1px solid blue !important; */
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  transition-duration: .5s;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5rem;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
