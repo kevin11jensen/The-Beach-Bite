@@ -19,6 +19,6 @@ export default function LandingPage() {
 }
 
 const LandingWrapper = styled.div `
-    background: dodgerblue;
+    
     
 `

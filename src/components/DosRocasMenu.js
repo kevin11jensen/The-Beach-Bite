@@ -16,5 +16,20 @@ export default function DosRocasMenu() {
 }
 
 const RocasMenuContainer = styled.div `
-
+    font-family: 'Calistoga', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 3%;
 `
+
+// font-family: 'Abril Fatface', cursive;
+
+// font-family: 'Calistoga', cursive;
+
+// font-family: 'Luckiest Guy', cursive;
+
+// font-family: 'Roboto', sans-serif;
+
+// font-family: 'Sigmar One', cursive;
+// font-family: 'Roboto', sans-serif;
