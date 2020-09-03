@@ -52,10 +52,14 @@ const Nav = styled.nav `
         flex-direction: column;
         justify-content: center;
         align-items: space-around;
+        
         a {
             text-decoration: none;
             color: var(--cinder);
             margin-bottom: 3%;
+            &:hover {
+                color: var(--veniceBlue);
+            }
             i {
                 margin-right: 1rem;
             }
