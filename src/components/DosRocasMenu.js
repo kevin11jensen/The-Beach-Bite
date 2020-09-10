@@ -21,6 +21,7 @@ const RocasMenuContainer = styled.div `
     justify-content: center;
     font-size: 3rem;
     padding: 3%;
+    color: var(--shuttleGray);
 `
 
 // font-family: 'Abril Fatface', cursive;

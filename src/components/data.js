@@ -5,103 +5,132 @@ const beachBite = [
 
     {
         section: 'SOUPS & SALADS',
-
-        item: 'Old Country Minestrone Soup Cup',
-        description: 'Fresh Italian Herbs and Vegetables combined to create a delight to the soul. Served with Garlic Bread and topped with Parmesan Cheese.',
-        price: '$4.95',
-        price2: 'Bowl $7.45',
-
-        item: 'Clam Bite Chowder', 
-        description: 'Our Special Recipe for a North Coast favorite, served with Garlic Bread.',
-        price: 'Cup $5.25',
-        price2: 'Bowl $8.25',
-
-        item: 'Caesar',
-        description: 'Crisp Romaine Lettuce, Olives, Grape Tomatoes, Shredded Parmesan Cheese and Seasoned Croutons.', 
-        price: '$9.75',
-        price2: 'Add Chicken - $3.00' 
+        items: [
+            {
+                item: 'Old Country Minestrone Soup Cup',
+                description: 'Fresh Italian Herbs and Vegetables combined to create a delight to the soul. Served with Garlic Bread and topped with Parmesan Cheese.',
+                price: '$4.95',
+                price2: 'Bowl $7.45'
+            },
+            {
+                item: 'Clam Bite Chowder', 
+                description: 'Our Special Recipe for a North Coast favorite, served with Garlic Bread.',
+                price: 'Cup $5.25',
+                price2: 'Bowl $8.25'
+            },
+        
+            { 
+                item: 'Caesar',
+                description: 'Crisp Romaine Lettuce, Olives, Grape Tomatoes, Shredded Parmesan Cheese and Seasoned Croutons.', 
+                price: '$9.75',
+                price2: 'Add Chicken - $3.00'
+            }
+        ]    
     },
 
     {
         section: 'FISH & CHIPS',
-
-        item: 'Beer Batter Cod',
-        price: '2 pieces $15.95 / 3 pieces $18.95',
-
-        item: 'Halibut Fish & Chips',
-        price: '2 pieces $18.95 / 3 pieces $23.95', 
-        description: 'Delicious Halibut fish, lightly battered and fried to perfection. Served with Tartar Sauce, Coleslaw and Homemade Fries.',
-        price2: 'Add a cup of Clam Chowder or House Salad for $3.00 more.'
+        items: [
+            {
+                item: 'Beer Batter Cod',
+                price: '2 pieces $15.95 / 3 pieces $18.95'
+            },
+            {
+                item: 'Halibut Fish & Chips',
+            price: '2 pieces $18.95 / 3 pieces $23.95', 
+            description: 'Delicious Halibut fish, lightly battered and fried to perfection. Served with Tartar Sauce, Coleslaw and Homemade Fries.',
+            price2: 'Add a cup of Clam Chowder or House Salad for $3.00 more.'
+            }
+        ]
     },
 
     {
         section: 'LITTLE BITES (Children & Senior Menu)', 
-
-        item: '*Little Bite Burger', 
-        price: '$10.95',
-        description: '1/4-Pound Ground Chuck with Melted Cheddar Cheese, Mayo, Lettuce, Tomatoes and Red Onions. Served with Homemade Fries.', 
-
-        item: 'Corn Dog',
-        price: '$5.95', 
-        description: 'Deep fried to a golden brown. Served with Homemade Fries.',
-        
-        item: '1 Piece Fish & Chips', 
-        description: 'Lightly battered and fried to perfection. Served with Tartar Sauce, Coleslaw and Homemade Fries.', 
-        item2: 'Halibut $12.95'
+        items: [
+            {
+                item: '*Little Bite Burger', 
+            price: '$10.95',
+            description: '1/4-Pound Ground Chuck with Melted Cheddar Cheese, Mayo, Lettuce, Tomatoes and Red Onions. Served with Homemade Fries.'
+            },
+            {
+                item: 'Corn Dog',
+            price: '$5.95', 
+            description: 'Deep fried to a golden brown. Served with Homemade Fries.'
+            },
+            {
+                item: '1 Piece Fish & Chips', 
+                description: 'Lightly battered and fried to perfection. Served with Tartar Sauce, Coleslaw and Homemade Fries.', 
+                item2: 'Halibut $12.95'
+            }
+        ]    
     },
 
     {
         section: 'FRESH GOURMET BURGERS', 
         section2: 'Served with homemade fries Veggie Burger may be substituted at no additional cost.', 
-
-        item: '*Bite Me Burger', 
-        price: '$11.95',
-        description: '1/3-Pound Ground Chuck Burger - Piled high with Lettuce, Tomatoes, Red Onions and Mayo.',
-        item2: 'Add cheese - $1.50.',
-        
-        item: '*Beach Burger', 
-        price: '$13.95',
-        description: '1/3-Pound Ground Chuck Burger - Tillamook Cheddar Cheese, Bacon, Mayo, Lettuce, Tomatoes, Sautéed Onions and Guacamole.',
-        
-        item: '*West Coast Burger', 
-        price: '$13.95',
-        description: '1/3-Pound Ground Chuck Burger - Grilled Jalapeño Peppers, Fresh Guacamole, Mayo, Lettuce, Tomatoes, Sautéed Onions and topped with Pepper-Jack Cheese.'
+        items: [
+            {
+                item: '*Bite Me Burger', 
+                price: '$11.95',
+                description: '1/3-Pound Ground Chuck Burger - Piled high with Lettuce, Tomatoes, Red Onions and Mayo.',
+                item2: 'Add cheese - $1.50.'
+            },
+            {
+                item: '*Beach Burger', 
+            price: '$13.95',
+            description: '1/3-Pound Ground Chuck Burger - Tillamook Cheddar Cheese, Bacon, Mayo, Lettuce, Tomatoes, Sautéed Onions and Guacamole.'
+            },
+            {
+                item: '*West Coast Burger', 
+                price: '$13.95',
+                description: '1/3-Pound Ground Chuck Burger - Grilled Jalapeño Peppers, Fresh Guacamole, Mayo, Lettuce, Tomatoes, Sautéed Onions and topped with Pepper-Jack Cheese.'
+            }
+        ]    
     },
 
     {
         section: 'GOURMET PIZZA',
         section2: 'All Pies have Mozzarella, Parmesan, Asiago, Romano, Fresh Garlic and Fresh Basil.',
-
-        item: 'Four Cheese',
-        price: 'Medium $13.95',
-        price2: 'Large $17.95', 
-        description: 'Classic Cheese Pizza.',
-
-        item: 'Canadian Bacon & Pineapple',
-        price: 'Medium $16.95',
-        price2: 'Large $23.95',
-        
-        item: 'Pepperoni',
-        price: 'Medium $15.95',
-        price2: 'Large $23.95', 
-        description: 'Classic Pepperoni Pizza.'
-
-        item: 'Meat Lovers', 
-        price: 'Medium $18.95',
-        price2: 'Large $27.95',
-        description: 'Pepperoni, Bacon, Salami, Italian Sausage and Canadian Bacon.', 
-        
-        item: 'All Veggie',
-        price: 'Medium $18.95',
-        price2: 'Large $28.95',   
-        description: 'Artichoke Hearts, Mushrooms, Green and Red Peppers, Sun Dried Tomatoes, Onions Fresh Spinach and Black Olives.', 
-
-        item: 'Toppings',
-        price: 'Each additional topping 12"-$3.50/16"-$4.25'
-        description: 'Pepperoni, Italian Sausage, Salami, Bacon, Bay Shrimp',
-        
-        item: 'Each additional topping',
-        price: '12"-$2.50/16"-$3.00 Artichokes, Pineapple, Onions, Tomatoes, Bell Peppers, Mushrooms, Spinach, Capers, Sun Dried Tomatoes, Jalapeños, Olives'
+        items: [
+            {
+                item: 'Four Cheese',
+                price: 'Medium $13.95',
+                price2: 'Large $17.95', 
+                description: 'Classic Cheese Pizza.'
+            },
+            {
+                item: 'Canadian Bacon & Pineapple',
+                price: 'Medium $16.95',
+                price2: 'Large $23.95'
+            },
+            {
+                item: 'Pepperoni',
+                price: 'Medium $15.95',
+                price2: 'Large $23.95', 
+                description: 'Classic Pepperoni Pizza'
+            },
+            {
+                item: 'Meat Lovers', 
+                price: 'Medium $18.95',
+                price2: 'Large $27.95',
+                description: 'Pepperoni, Bacon, Salami, Italian Sausage and Canadian Bacon.'
+            },
+            {
+                item: 'All Veggie',
+                price: 'Medium $18.95',
+                price2: 'Large $28.95',   
+                description: 'Artichoke Hearts, Mushrooms, Green and Red Peppers, Sun Dried Tomatoes, Onions Fresh Spinach and Black Olives.'
+            },
+            {
+                item: 'Toppings',
+                price: 'Each additional topping 12"-$3.50/16"-$4.25',
+                description: 'Pepperoni, Italian Sausage, Salami, Bacon, Bay Shrimp'
+            },
+            {
+                item: 'Each additional topping',
+                price: '12"-$2.50/16"-$3.00 Artichokes, Pineapple, Onions, Tomatoes, Bell Peppers, Mushrooms, Spinach, Capers, Sun Dried Tomatoes, Jalapeños, Olives'
+            }
+        ]
     }
 ]
     
