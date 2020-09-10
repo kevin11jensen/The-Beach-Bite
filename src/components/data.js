@@ -138,86 +138,114 @@ const beachBite = [
 // (503) 355-2075
 
 const dosRocas = [
-{
-section: 'BURRITOS', 
-section2: 'Large flour tortillas stuffed with your choice or filling, rice, beans and cheese. Topped with ranchero sauce, shredded lettuce, green onions, pico de gallo, guacamole and sour cream.', 
-
-item: 'Chicken, Ground Beef or Pork',
-price: '$14.95', 
-item2: 'Carne Asada Burrito',
-price2: '$15.95' 
-},
-{
-section: 'TACOS', 
-section2: 'Two fresh corn tortillas with your choice or filling topped with shredded lettuce, diced tomatoes, green onions, shredded cheddar cheese. Served with Spanish rice and choice of black beans or refried beans.', 
-
-item: 'Halibut Fish Tacos',
-price: '$14.95', 
-item2: 'Topped with a special cilantro sauce and pico de gallo.',
-
-item: 'Ground Beef Tacos', 
-price: '$11.95',
-
-item: 'Carne Asada Tacos',
-price: '$12.95'
-},
-{
-section: 'DOS ROCAS LITTLE AMIGOS',
-
-item: 'Small Burrito',
-price: '$6.95',
-description: 'Flour tortilla filled with beans & cheese. Served with Spanish rice.',
-
-item: 'One Quesadilla',
-price: '$5.95',
-description: 'Flour tortilla filled with cheese. Served with Spanish rice.',
-price2: 'With chicken or ground beef - $7.95'
-},
-{ 
-section: 'DOS ROCAS SPECIALTIES', 
-section2: 'Served with Spanish rice, refried or black beans.',
-
-item: 'Enchilada Plate',
-price: '$15.75', 
-description: '(Choice of ground beef or chicken) Two meat and cheese enchilada, covered with red sauce and melted cheese.', 
-
-item: 'Chile Rellenos', 
-price: '$15.95', 
-description: 'Two large chili peppers stuffed with cheese and deep fried to a golden brown.',
-
-item: 'Two Chicken Tamales',
-price: '$15.45',  
-description: 'Two fresh masa tamales with seasoned chicken, wrapped in corn husk and steamed. Topped with verde sauce and sour cream.',
-
-item: 'Camarones A La Diabla', 
-price: '$18.95', 
-description: 'A coastal favorite. Jumbo shrimp sautéed in a spicy Mexican butter. Served with fresh corn tortillas.' 
-},
-{
-section: 'BEACH BITE SPECIALTIES',
-section2: 'Served with Fresh Baked Garlic Bread and Minestrone Soup.', 
-
-item: 'Lasagna Classico', 
-price: '$15.95', 
-description: 'Layers of Pasta, Meat Sauce and Mozzarella , Ricotta, and Parmesan Cheese Fettuccine Alfredo.',
-
-item: 'Fettuccine Alfredo',
-price: '$15.95',
-description: 'Parmesan cream Sauce with hint of Garlic, tossed with Fettuccine. Topped with Parmesan Cheese.',
-price2: 'Add Bay Shrimp or Chicken for $3.00 more.', 
-
-item: 'Seafood Pasta', 
-price: '$26.95',
-description: 'Bay Shrimp, Sea Scallops and Clams sautéed with Fresh Garlic, Capers and Mushrooms in a Parmesan Cream Sauce tossed with Fettuccine.',
-
-item: 'Seafood Ravioli',
-price: '$23.95',
-description: 'Tender whole egg pasta with delicate seasoned blend of Ricotta, Lobster and Langostino. Served with Creamy Garlic sauce and touch of Marinara and Parmesan Cheese.'
-}, 
-{
-section: 'BEVERAGES', 
-item: 'Pepsi - Diet Pepsi - Root Beer - Lemonade Dr. Pepper - Sierra Mist - Raspberry Lemonade Italian Sodas - Coffee - Iced Tea - Milk - Juices' 
-}
+    {
+        section: 'BURRITOS', 
+        section2: 'Large flour tortillas stuffed with your choice or filling, rice, beans and cheese. Topped with ranchero sauce, shredded lettuce, green onions, pico de gallo, guacamole and sour cream.',
+        items: [
+            {
+                item: 'Chicken, Ground Beef or Pork',
+                price: '$14.95', 
+                item2: 'Carne Asada Burrito',
+                price2: '$15.95'
+            },
+        ]
+    },
+    {
+        section: 'TACOS', 
+        section2: 'Two fresh corn tortillas with your choice or filling topped with shredded lettuce, diced tomatoes, green onions, shredded cheddar cheese. Served with Spanish rice and choice of black beans or refried beans.', 
+        items: [
+            {
+                item: 'Halibut Fish Tacos',
+                price: '$14.95', 
+                item2: 'Topped with a special cilantro sauce and pico de gallo.'
+            },
+            {
+                item: 'Ground Beef Tacos', 
+                price: '$11.95'
+            },
+            {
+                item: 'Carne Asada Tacos',
+                price: '$12.95'
+            }
+        ]
+    },
+    {
+        section: 'DOS ROCAS LITTLE AMIGOS',
+        items: [
+            {
+                item: 'Small Burrito',
+                price: '$6.95',
+                description: 'Flour tortilla filled with beans & cheese. Served with Spanish rice.'
+            },
+            {
+                item: 'One Quesadilla',
+                price: '$5.95',
+                description: 'Flour tortilla filled with cheese. Served with Spanish rice.',
+                price2: 'With chicken or ground beef - $7.95'
+            }
+        ]
+    },
+    { 
+        section: 'DOS ROCAS SPECIALTIES', 
+        section2: 'Served with Spanish rice, refried or black beans.',
+        items: [
+            {
+                item: 'Enchilada Plate',
+                price: '$15.75', 
+                description: '(Choice of ground beef or chicken) Two meat and cheese enchilada, covered with red sauce and melted cheese.' 
+            },
+            {
+                item: 'Chile Rellenos', 
+                price: '$15.95', 
+                description: 'Two large chili peppers stuffed with cheese and deep fried to a golden brown.'
+            },
+            {
+                item: 'Two Chicken Tamales',
+                price: '$15.45',  
+                description: 'Two fresh masa tamales with seasoned chicken, wrapped in corn husk and steamed. Topped with verde sauce and sour cream.'
+            },
+            {
+                item: 'Camarones A La Diabla', 
+                price: '$18.95', 
+                description: 'A coastal favorite. Jumbo shrimp sautéed in a spicy Mexican butter. Served with fresh corn tortillas.'
+            }
+        ]
+    },
+    {
+        section: 'BEACH BITE SPECIALTIES',
+        section2: 'Served with Fresh Baked Garlic Bread and Minestrone Soup.', 
+        items: [
+            {
+                item: 'Lasagna Classico', 
+                price: '$15.95', 
+                description: 'Layers of Pasta, Meat Sauce and Mozzarella , Ricotta, and Parmesan Cheese Fettuccine Alfredo.'
+            },
+            {
+                item: 'Fettuccine Alfredo',
+                price: '$15.95',
+                description: 'Parmesan cream Sauce with hint of Garlic, tossed with Fettuccine. Topped with Parmesan Cheese.',
+                price2: 'Add Bay Shrimp or Chicken for $3.00 more.' 
+            },
+            {
+                item: 'Seafood Pasta', 
+                price: '$26.95',
+                description: 'Bay Shrimp, Sea Scallops and Clams sautéed with Fresh Garlic, Capers and Mushrooms in a Parmesan Cream Sauce tossed with Fettuccine.'
+            },
+            {
+                item: 'Seafood Ravioli',
+                price: '$23.95',
+                description: 'Tender whole egg pasta with delicate seasoned blend of Ricotta, Lobster and Langostino. Served with Creamy Garlic sauce and touch of Marinara and Parmesan Cheese.'
+            }
+        ]
+    }, 
+    {
+        section: 'BEVERAGES',
+        items: [
+            {
+                item: 'Pepsi - Diet Pepsi - Root Beer - Lemonade Dr. Pepper - Sierra Mist - Raspberry Lemonade Italian Sodas - Coffee - Iced Tea - Milk - Juices' 
+            }
+        ]
+    }
 ]
 
 // disclaimer: 'SHELLFISH, EGGS OR POULTRY MAY INCREASE YOUR RISK OF FOOD BORN ILLNESS' 
