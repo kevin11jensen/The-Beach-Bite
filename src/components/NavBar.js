@@ -26,7 +26,7 @@ export default function NavBar() {
                     <p>Dos Rocas: (503) 355-2075</p>
                     
                 </div>
-                
+                <p>Open: 12pm - 9pm Everyday</p>
             </div>
             <Link to = '/dosrocas'>
                 <img src = {rocasLogo} alt = 'Dos Rocas Logo' />
@@ -89,7 +89,9 @@ const Nav = styled.nav `
                 margin-right: 1rem;
             }
         }
-        
+        p {
+            text-align: center;
+        }
     }
     
 `

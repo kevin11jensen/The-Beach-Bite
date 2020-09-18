@@ -25,7 +25,7 @@ export default function Contact() {
                     <p>Dos Rocas:<br/> (503) 355-2075</p>
                 </div>
             </div>
-
+            <p style = {{fontSize: '1.6rem'}}>Open: 12pm - 9pm Everyday</p>
                 
         </ContactContainer>
     )
@@ -40,6 +40,7 @@ const ContactContainer = styled.div `
     background: var(--tiara);
     p {
         text-align: center;
+    
         @media ${device.tablet} {
             font-size: .8rem;
             width: 66%;
