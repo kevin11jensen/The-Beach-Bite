@@ -1,7 +1,7 @@
 import React from 'react';
 import BeachBiteMenu from './BeachBiteMenu';
 import DosRocasMenu from './DosRocasMenu';
-
+// import { beachBite } from './data';
 import styled from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
 
