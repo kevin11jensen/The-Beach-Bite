@@ -39,6 +39,7 @@ const ContactContainer = styled.div `
     height: 33vh;
     background: var(--tiara);
     p {
+        text-align: center;
         @media ${device.tablet} {
             font-size: .8rem;
             
