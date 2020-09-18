@@ -8,7 +8,7 @@ export default function BeachBiteMenu() {
         <BeachMenuContainer>
 
         <h1>The Beach Bite Menu</h1>
-        
+
         <div className = 'beach-menu-container'>
 
             <div className = 'soup-salad'>
@@ -84,7 +84,7 @@ export default function BeachBiteMenu() {
                     <p>$13.95</p>
                 </div>
             </div>
-            <div className = ';izza'>
+            <div className = 'pizza'>
                 <h3>GOURMET PIZZA</h3>
                 <p>All Pies have Mozzarella, Parmesan, Asiago, Romano, Fresh Garlic and Fresh Basil.</p>
                 <div className = 'four-cheese'>
@@ -126,6 +126,35 @@ export default function BeachBiteMenu() {
                     <p>Artichokes, Pineapple, Onions, Tomatoes, Bell Peppers, Mushrooms, Spinach, Capers, Sun Dried Tomatoes, Jalapeños, Olives</p>
                     <p>12"-$2.50/16"-$3.00</p>
                 </div>
+            </div>
+            <div className = 'beach-specialties'>
+                <h3>BEACH BITE SPECIALTIES</h3>
+                <p>Served with Fresh Baked Garlic Bread and Minestrone Soup.</p>
+                <div className = 'lasagna'>
+                    <h4>Lasagna Classico</h4>
+                    <p>Layers of Pasta, Meat Sauce and Mozzarella , Ricotta, and Parmesan Cheese Fettuccine Alfredo.</p>
+                    <p>$15.95</p>
+                </div>
+                <div className = 'alfredo'>
+                    <h4>Fettuccine Alfredo</h4>
+                    <p>Parmesan cream Sauce with hint of Garlic, tossed with Fettuccine. Topped with Parmesan Cheese.</p>
+                    <p>$15.95</p>
+                    <p>Add Bay Shrimp or Chicken for $3.00 more.</p>
+                </div>
+                <div className = 'seafood-pasta'>
+                    <h4>Seafood Pasta</h4>
+                    <p>Bay Shrimp, Sea Scallops and Clams sautéed with Fresh Garlic, Capers and Mushrooms in a Parmesan Cream Sauce tossed with Fettuccine.</p>
+                    <p>$26.95</p>
+                </div>
+                <div className = 'seafood-ravioli'>
+                    <h4>Seafood Ravioli</h4>
+                    <p>Tender whole egg pasta with delicate seasoned blend of Ricotta, Lobster and Langostino. Served with Creamy Garlic sauce and touch of Marinara and Parmesan Cheese.</p>
+                    <p>$23.95</p>
+                </div>
+            </div>
+            <div className = 'beverages'>
+                <h3>BEVERAGES</h3>
+                <p>Pepsi - Diet Pepsi - Root Beer - Lemonade Dr. Pepper - Sierra Mist - Raspberry Lemonade Italian Sodas - Coffee - Iced Tea - Milk - Juices</p>
             </div>
         </div>
         
