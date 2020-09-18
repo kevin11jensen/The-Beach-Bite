@@ -197,6 +197,7 @@ const BeachMenuContainer = styled.div `
     h3 {
         font-family: 'Luckiest Guy', cursive;
         color: var(--hippieBlue);
+        font-weight: 200;
         @media ${device.tablet} {
             display: flex;
             justify-content: center;
