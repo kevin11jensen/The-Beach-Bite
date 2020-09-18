@@ -1,6 +1,9 @@
 import React from 'react';
-
+import { device } from './device';
 import styled from 'styled-components';
+
+
+
 
 export default function BeachBiteMenu() {
     
@@ -187,31 +190,57 @@ const BeachMenuContainer = styled.div `
         font-family: 'Abril Fatface', cursive;
         color: var(--veniceBlue);
         text-align: center;
+        @media ${device.tablet} {
+            font-size: 3.2rem;
+        }
     }
     h3 {
         font-family: 'Luckiest Guy', cursive;
         color: var(--hippieBlue);
+        @media ${device.tablet} {
+            display: flex;
+            justify-content: center;
+            font-size: 2.4rem;
+        }
     }
     h4 {
         font-family: 'Luckiest Guy', cursive;
         color: var(--cinder);
         margin-bottom: 0;
         font-weight: 200;
+        @media ${device.tablet} {
+            display: flex;
+            justify-content: flex-start;
+            font-size: 1.8rem;
+            margin: 1%;
+        }
     }
     p {
         font-family: 'Roboto', sans-serif;
         color: var(--cinder);
         margin-top: 1%;
+        @media ${device.tablet} {
+            display: flex;
+            justify-content: center;
+            margin: 1% 2%;
+        }
     }
     .beach-top-wrapper {
         display: flex;
         justify-content: space-around;
-        
+        @media ${device.tablet} {
+            flex-direction: column;
+            align-items: center;
+        }
         .soup-salad {
             width: 33%;
-            
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -220,9 +249,13 @@ const BeachMenuContainer = styled.div `
         }
         .fish-chips {
             width: 33%;
-
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -232,12 +265,19 @@ const BeachMenuContainer = styled.div `
     .beach-middle-wrapper {
         display: flex;
         justify-content: space-around;
-        
+        @media ${device.tablet} {
+            flex-direction: column;
+            align-items: center;
+        }
         .little-bites {
             width: 33%;
-            
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -246,9 +286,20 @@ const BeachMenuContainer = styled.div `
         }
         .burgers {
             width: 33%;
-
+            @media ${device.tablet} {
+                width: 99%;
+                
+            }
+            p {
+                @media ${device.tablet} {
+                    margin-top: 0;
+                    padding-top: 0;
+                }
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -258,12 +309,19 @@ const BeachMenuContainer = styled.div `
     .beach-bottom-wrapper {
         display: flex;
         justify-content: space-around;
-        
+        @media ${device.tablet} {
+            flex-direction: column;
+            align-items: center;
+        }
         .pizza {
             width: 33%;
-            
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -272,9 +330,13 @@ const BeachMenuContainer = styled.div `
         }
         .beach-specialties {
             width: 33%;
-
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -285,6 +347,9 @@ const BeachMenuContainer = styled.div `
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media ${device.tablet} {
+            width: 99%;
+        }
         h3 {
             margin-bottom: 0;
         }

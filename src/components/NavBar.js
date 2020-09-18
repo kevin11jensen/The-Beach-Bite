@@ -3,13 +3,14 @@ import beachLogo from '../img/beachBiteLogo.png';
 import rocasLogo from '../img/dosRocas.png';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { device } from './device';
 
 
 
 export default function NavBar() {
     return (
         <Nav>
-
+            
             <Link to = '/'>
                 <img src = {beachLogo} alt = 'Beach Bite Logo' />
             </Link>
@@ -31,6 +32,9 @@ export default function NavBar() {
                 <img src = {rocasLogo} alt = 'Dos Rocas Logo' />
             </Link>
             
+                
+            
+            
         </Nav>
     );
 }
@@ -40,6 +44,7 @@ const Nav = styled.nav `
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     a {
         text-align: center;
         img {
@@ -53,6 +58,10 @@ const Nav = styled.nav `
         justify-content: center;
         align-items: space-around;
         width: 33%;
+        font-size: 1.6rem;
+        @media ${device.tablet} {
+            display: none;
+        }
         a {
             text-decoration: none;
             color: var(--cinder);
@@ -70,6 +79,9 @@ const Nav = styled.nav `
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @media ${device.tablet} {
+                display: none;
+            }
             i {
                 margin-right: .5rem;
             }

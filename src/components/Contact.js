@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { device } from './device';
 
 
 export default function Contact() {
@@ -38,6 +38,12 @@ const ContactContainer = styled.div `
     justify-content: space-around;
     height: 33vh;
     background: var(--tiara);
+    p {
+        @media ${device.tablet} {
+            font-size: .8rem;
+            
+        }
+    }
     .map {
         a {
             text-decoration: none;
@@ -58,19 +64,43 @@ const ContactContainer = styled.div `
         align-items: center;
         justify-content: space-around;
         width: 50%;
+        @media ${device.tablet} {
+            width: 99%;
+            
+        }
         .phone-1 {
             display: flex;
             width: 33%;
             align-items: center;
             justify-content: space-around;
+            @media ${device.tablet} {
+                width: 66%;
+                
+            }
+            p {
+                @media ${device.tablet} {
+                    margin-left: 3%;
+                    font-size: 1rem;
+                    
+                }
+            }
             
         }
         .phone-2 {
             display: flex;
             width: 33%;
             align-items: center;
-            justify-content: space-around;
-            
+            justify-content: center;
+            @media ${device.tablet} {
+                width: 66%;
+                
+            }
+            p {
+                @media ${device.tablet} {
+                    margin-left: 3%;
+                    font-size: 1rem;
+                }
+            }
         }
         
     }
