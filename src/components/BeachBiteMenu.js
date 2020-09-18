@@ -198,13 +198,14 @@ const BeachMenuContainer = styled.div `
         font-family: 'Luckiest Guy', cursive;
         color: var(--hippieBlue);
         font-weight: 200;
+        margin: 3% 0 0 0;
+        padding: 1% 0 0 0;
         @media ${device.tablet} {
             display: flex;
             justify-content: center;
             font-size: 2.4rem;
             text-align: center;
-            margin: 3% 0 0 0;
-            padding: 1% 0 0 0;
+            
         }
     }
     h4 {

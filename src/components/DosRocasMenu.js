@@ -107,12 +107,13 @@ const RocasMenuContainer = styled.div `
         font-family: 'Sigmar One', cursive;
         color: var(--brightSun);
         font-weight: 200;
+        margin: 3% 0 0 0;
+        padding: 1% 0 0 0;
         @media ${device.tablet} {
             display: flex;
             justify-content: center;
             font-size: 2.4rem;
-            margin: 3% 0 0 0;
-            padding: 1% 0 0 0;
+            
             text-align: center;
         }
     }

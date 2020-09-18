@@ -78,15 +78,17 @@ const ContactContainer = styled.div `
             
             p {
                 @media ${device.tablet} {
-                    margin-left: 3%;
+                    margin-left: 1%;
                     font-size: 1rem;
                     
                 }
             }
             i {
                 margin-right: 3%;
+                font-size: 3rem;
                 @media ${device.tablet} {
                     margin-right: 0;
+                    font-size: 1.6rem;
                 }
             }
         }
@@ -98,14 +100,16 @@ const ContactContainer = styled.div `
             
             p {
                 @media ${device.tablet} {
-                    margin-left: 3%;
+                    margin-left: 1%;
                     font-size: 1rem;
                 }
             }
             i {
                 margin-right: 3%;
+                font-size: 3rem;
                 @media ${device.tablet} {
                     margin-right: 0;
+                    font-size: 1.6rem;
                 }
             }
         }
