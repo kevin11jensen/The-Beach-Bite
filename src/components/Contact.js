@@ -73,11 +73,8 @@ const ContactContainer = styled.div `
             display: flex;
             width: 33%;
             align-items: center;
-            justify-content: space-around;
-            @media ${device.tablet} {
-                
-                justify-content: center;
-            }
+            justify-content: center;
+            
             p {
                 @media ${device.tablet} {
                     margin-left: 3%;
@@ -97,10 +94,7 @@ const ContactContainer = styled.div `
             width: 33%;
             align-items: center;
             justify-content: center;
-            @media ${device.tablet} {
-                
-                
-            }
+            
             p {
                 @media ${device.tablet} {
                     margin-left: 3%;
