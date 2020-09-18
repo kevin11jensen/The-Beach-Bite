@@ -113,6 +113,7 @@ const RocasMenuContainer = styled.div `
             font-size: 2.4rem;
             margin: 3% 0 0 0;
             padding: 1% 0 0 0;
+            text-align: center;
         }
     }
     h4 {
