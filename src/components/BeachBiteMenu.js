@@ -203,6 +203,8 @@ const BeachMenuContainer = styled.div `
             justify-content: center;
             font-size: 2.4rem;
             text-align: center;
+            margin: 3% 0 0 0;
+            padding: 1% 0 0 0;
         }
     }
     h4 {
