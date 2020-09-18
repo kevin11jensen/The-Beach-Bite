@@ -106,6 +106,7 @@ const RocasMenuContainer = styled.div `
     h3 {
         font-family: 'Sigmar One', cursive;
         color: var(--brightSun);
+        font-weight: 200;
         @media ${device.tablet} {
             display: flex;
             justify-content: center;

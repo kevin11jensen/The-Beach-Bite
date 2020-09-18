@@ -75,7 +75,7 @@ const ContactContainer = styled.div `
             justify-content: space-around;
             @media ${device.tablet} {
                 width: 66%;
-                
+                justify-content: center;
             }
             p {
                 @media ${device.tablet} {
@@ -84,7 +84,12 @@ const ContactContainer = styled.div `
                     
                 }
             }
-            
+            i {
+                margin-right: 3%;
+                @media ${device.tablet} {
+                    margin-right: 0;
+                }
+            }
         }
         .phone-2 {
             display: flex;
@@ -99,6 +104,12 @@ const ContactContainer = styled.div `
                 @media ${device.tablet} {
                     margin-left: 3%;
                     font-size: 1rem;
+                }
+            }
+            i {
+                margin-right: 3%;
+                @media ${device.tablet} {
+                    margin-right: 0;
                 }
             }
         }
