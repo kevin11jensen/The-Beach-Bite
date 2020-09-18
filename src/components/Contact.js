@@ -18,11 +18,11 @@ export default function Contact() {
             <div className = 'contact'>
                 <div className = 'phone-1'>
                     <i className = "fas fa-phone" />
-                    <p>The Beach Bite: (503) 355-2073</p>
+                    <p>The Beach Bite:<br/> (503) 355-2073</p>
                 </div>
                 <div className = 'phone-2'>
                     <i className = "fas fa-phone" />
-                    <p>Dos Rocas: (503) 355-2075</p>
+                    <p>Dos Rocas:<br/> (503) 355-2075</p>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@ const ContactContainer = styled.div `
             align-items: center;
             justify-content: space-around;
             @media ${device.tablet} {
-                width: 69%;
+                
                 justify-content: center;
             }
             p {
@@ -98,7 +98,7 @@ const ContactContainer = styled.div `
             align-items: center;
             justify-content: center;
             @media ${device.tablet} {
-                width: 66%;
+                
                 
             }
             p {
