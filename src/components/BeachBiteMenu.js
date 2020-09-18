@@ -171,18 +171,7 @@ const BeachMenuContainer = styled.div `
     font-size: 3rem;
     padding: 3%;
     color: var(--cinder);
-    .beach-menu-container {
-        margin-top: 6%;
-        .soup-salad {
-            h3 {
-                font-size: 2rem;
-            }
-            h4 {
-                font-size: 1.6rem;
-                font-family: 'Roboto', sans-serif;
-            }
-        }
-    }
+    
 `
 // font-family: 'Abril Fatface', cursive;
 
