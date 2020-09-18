@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { device } from './device';
 import styled from 'styled-components';
 
 
@@ -98,32 +98,58 @@ const RocasMenuContainer = styled.div `
         font-family: 'Calistoga', cursive;
         color: var(--shuttleGray);
         text-align: center;
+        @media ${device.tablet} {
+            font-size: 3.2rem;
+        }
     }
     
     h3 {
         font-family: 'Sigmar One', cursive;
         color: var(--brightSun);
+        @media ${device.tablet} {
+            display: flex;
+            justify-content: center;
+            font-size: 2.4rem;
+        }
     }
     h4 {
         font-family: 'Calistoga', cursive;
         color: var(--shuttleGray);
         margin-bottom: 0;
         font-weight: 200;
+        @media ${device.tablet} {
+            display: flex;
+            justify-content: flex-start;
+            font-size: 1.8rem;
+            margin: 6% 1% 3% 1%;
+        }
     }
     p {
         font-family: 'Roboto', sans-serif;
         color: var(--cinder);
         margin-top: 1%;
+        @media ${device.tablet} {
+            display: flex;
+            justify-content: center;
+            margin: 1% 2%;
+        }
     }
     .rocas-top-wrapper {
         display: flex;
         justify-content: space-around;
-        
+        @media ${device.tablet} {
+            flex-direction: column;
+            align-items: center;
+        }
         .burritos {
             width: 33%;
-            
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -132,9 +158,13 @@ const RocasMenuContainer = styled.div `
         }
         .tacos {
             width: 33%;
-
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -144,12 +174,19 @@ const RocasMenuContainer = styled.div `
     .rocas-bottom-wrapper {
         display: flex;
         justify-content: space-around;
-        
+        @media ${device.tablet} {
+            flex-direction: column;
+            align-items: center;
+        }
         .little-amigos {
             width: 33%;
-            
+            @media ${device.tablet} {
+                width: 99%;
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -158,9 +195,14 @@ const RocasMenuContainer = styled.div `
         }
         .rocas-specialties {
             width: 33%;
-
+            @media ${device.tablet} {
+                width: 99%;
+                
+            }
             div {
-
+                @media ${device.tablet} {
+                    margin-bottom: 3%;
+                }
                 p {
                     
                 }
@@ -171,6 +213,9 @@ const RocasMenuContainer = styled.div `
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media ${device.tablet} {
+            width: 99%;
+        }
         h3 {
             margin-bottom: 0;
         }
