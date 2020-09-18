@@ -93,11 +93,87 @@ export default function DosRocasMenu() {
 }
 
 const RocasMenuContainer = styled.div `
-    
+    background: var(--twine);
     h1 {
         font-family: 'Calistoga', cursive;
         color: var(--shuttleGray);
         text-align: center;
+    }
+    
+    h3 {
+        font-family: 'Sigmar One', cursive;
+        color: var(--brightSun);
+    }
+    h4 {
+        font-family: 'Calistoga', cursive;
+        color: var(--shuttleGray);
+        margin-bottom: 0;
+        font-weight: 200;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        color: var(--cinder);
+        margin-top: 1%;
+    }
+    .rocas-top-wrapper {
+        display: flex;
+        justify-content: space-around;
+        
+        .burritos {
+            width: 33%;
+            
+            div {
+
+                p {
+                    
+                }
+                
+            }
+        }
+        .tacos {
+            width: 33%;
+
+            div {
+
+                p {
+                    
+                }
+            }
+        }
+    }
+    .rocas-bottom-wrapper {
+        display: flex;
+        justify-content: space-around;
+        
+        .little-amigos {
+            width: 33%;
+            
+            div {
+
+                p {
+                    
+                }
+                
+            }
+        }
+        .rocas-specialties {
+            width: 33%;
+
+            div {
+
+                p {
+                    
+                }
+            }
+        }
+    }
+    .beverages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            margin-bottom: 0;
+        }
     }
 `
 
