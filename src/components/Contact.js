@@ -75,7 +75,7 @@ const ContactContainer = styled.div `
             align-items: center;
             justify-content: space-around;
             @media ${device.tablet} {
-                width: 66%;
+                width: 69%;
                 justify-content: center;
             }
             p {
