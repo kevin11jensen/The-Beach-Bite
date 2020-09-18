@@ -64,7 +64,7 @@ export default function BeachBiteMenu() {
             
             <div className = 'beach-middle-wrapper'>
                 <div className = 'little-bites'>
-                    <h3>LITTLE BITES (Children & Senior Menu)</h3>
+                    <h3>LITTLE BITES <br/>(Children & Senior Menu)</h3>
                     <div className = 'little-burger'>
                         <h4>*Little Bite Burger</h4>
                         <p>1/4-Pound Ground Chuck with Melted Cheddar Cheese, Mayo, Lettuce, Tomatoes and Red Onions. Served with Homemade Fries.</p>
@@ -202,6 +202,7 @@ const BeachMenuContainer = styled.div `
             display: flex;
             justify-content: center;
             font-size: 2.4rem;
+            text-align: center;
         }
     }
     h4 {
