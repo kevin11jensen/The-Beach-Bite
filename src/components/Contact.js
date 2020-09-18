@@ -42,7 +42,7 @@ const ContactContainer = styled.div `
         text-align: center;
         @media ${device.tablet} {
             font-size: .8rem;
-            
+            width: 66%;
         }
     }
     .map {
