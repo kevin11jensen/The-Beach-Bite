@@ -44,7 +44,7 @@ export default function BeachBiteMenu() {
                     <h3>FISH & CHIPS</h3>
 
                     <div className = 'cod'>
-                        <h4>Beer Batter Cod</h4>
+                        <h4>Beer Battered Cod</h4>
                         <p>2 pieces $15.95 / 3 pieces $18.95</p>
                     </div>
 
@@ -117,7 +117,7 @@ export default function BeachBiteMenu() {
                     </div>
                     <div className = 'pepperoni'>
                         <h4>Pepperoni</h4>
-                        <p>Classic Pepperoni Pizza</p>
+                        <p>Classic Pepperoni Pizza.</p>
                         <p>Medium $15.95</p>
                         <p>Large $23.95</p>
                     </div>
@@ -187,6 +187,21 @@ const BeachMenuContainer = styled.div `
         font-family: 'Abril Fatface', cursive;
         color: var(--veniceBlue);
         text-align: center;
+    }
+    h3 {
+        font-family: 'Luckiest Guy', cursive;
+        color: var(--hippieBlue);
+    }
+    h4 {
+        font-family: 'Luckiest Guy', cursive;
+        color: var(--cinder);
+        margin-bottom: 0;
+        font-weight: 200;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        color: var(--cinder);
+        margin-top: 1%;
     }
     .beach-top-wrapper {
         display: flex;
@@ -264,6 +279,14 @@ const BeachMenuContainer = styled.div `
                     
                 }
             }
+        }
+    }
+    .beverages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            margin-bottom: 0;
         }
     }
 `

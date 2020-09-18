@@ -52,11 +52,13 @@ const Nav = styled.nav `
         flex-direction: column;
         justify-content: center;
         align-items: space-around;
-        
+        width: 33%;
         a {
             text-decoration: none;
             color: var(--cinder);
             margin-bottom: 3%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
             &:hover {
                 color: var(--veniceBlue);
             }

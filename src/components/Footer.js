@@ -15,5 +15,10 @@ export default function Footer() {
 
 const Foot = styled.footer `
     text-align: center;
-    height: 20vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cinder);
+    color: var(--silverSand);
 `
