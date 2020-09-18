@@ -7,6 +7,7 @@ import styled from 'styled-components';
 export default function DosRocasMenu() {
     return (
         <RocasMenuContainer>
+
             <h1>Dos Rocas Menu</h1>
 
             <div className = 'dos-rocas-container'>
@@ -93,6 +94,11 @@ export default function DosRocasMenu() {
 
 const RocasMenuContainer = styled.div `
     
+    h1 {
+        font-family: 'Calistoga', cursive;
+        color: var(--shuttleGray);
+        text-align: center;
+    }
 `
 
 // font-family: 'Abril Fatface', cursive;
@@ -105,8 +111,11 @@ const RocasMenuContainer = styled.div `
 
 // font-family: 'Sigmar One', cursive;
 // font-family: 'Roboto', sans-serif;
-
-// font-family: 'Calistoga', cursive;
+// --shuttleGray: #525e64;
+//     --brightSun: #f8d343;
+//     --twine: #c3a159;
+//     --silverSand: #b2babd;
+// 
 //     display: flex;
 //     justify-content: center;
 //     font-size: 3rem;

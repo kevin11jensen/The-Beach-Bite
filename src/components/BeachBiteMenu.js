@@ -10,41 +10,53 @@ export default function BeachBiteMenu() {
         <h1>The Beach Bite Menu</h1>
 
         <div className = 'beach-menu-container'>
+
             <div className = 'beach-top-wrapper'>
+
                 <div className = 'soup-salad'>
                     <h3>SOUPS & SALADS</h3>
+
                     <div className = 'minestrone'>
                         <h4>Old Country Minestrone Soup Cup</h4>
                         <p>Fresh Italian Herbs and Vegetables combined to create a delight to the soul. Served with Garlic Bread and topped with Parmesan Cheese.</p>
                         <p>Cup $4.95</p>
                         <p>Bowl $7.45</p>
                     </div>
+
                     <div className = 'chowder'>
                         <h4>Clam Bite Chowder</h4>
                         <p>Our Special Recipe for a North Coast favorite, served with Garlic Bread.</p>
                         <p>Cup $5.25</p>
                         <p>Bowl $8.25</p>
                     </div>
+
                     <div className = 'caesar'>
                         <h4>Caesar</h4>
                         <p>Crisp Romaine Lettuce, Olives, Grape Tomatoes, Shredded Parmesan Cheese and Seasoned Croutons.</p>
                         <p>$9.75</p>
                         <p>Add Chicken - $3.00</p>
                     </div>
+
                 </div>
+
                 <div className = 'fish-chips'>
+
                     <h3>FISH & CHIPS</h3>
+
                     <div className = 'cod'>
                         <h4>Beer Batter Cod</h4>
                         <p>2 pieces $15.95 / 3 pieces $18.95</p>
                     </div>
+
                     <div className = 'halibut'>
                         <h4>Halibut Fish & Chips</h4>
                         <p>Delicious Halibut fish, lightly battered and fried to perfection. Served with Tartar Sauce, Coleslaw and Homemade Fries.</p>
                         <p>2 pieces $18.95 / 3 pieces $23.95</p>
                         <p>Add a cup of Clam Chowder or House Salad for $3.00 more.</p>
                     </div>
+
                 </div>
+
             </div>
             
             <div className = 'beach-middle-wrapper'>
@@ -171,7 +183,89 @@ export default function BeachBiteMenu() {
 
 const BeachMenuContainer = styled.div `
     
-    
+    h1 {
+        font-family: 'Abril Fatface', cursive;
+        color: var(--veniceBlue);
+        text-align: center;
+    }
+    .beach-top-wrapper {
+        display: flex;
+        justify-content: space-around;
+        
+        .soup-salad {
+            width: 33%;
+            
+            div {
+
+                p {
+                    
+                }
+                
+            }
+        }
+        .fish-chips {
+            width: 33%;
+
+            div {
+
+                p {
+                    
+                }
+            }
+        }
+    }
+    .beach-middle-wrapper {
+        display: flex;
+        justify-content: space-around;
+        
+        .little-bites {
+            width: 33%;
+            
+            div {
+
+                p {
+                    
+                }
+                
+            }
+        }
+        .burgers {
+            width: 33%;
+
+            div {
+
+                p {
+                    
+                }
+            }
+        }
+    }
+    .beach-bottom-wrapper {
+        display: flex;
+        justify-content: space-around;
+        
+        .pizza {
+            width: 33%;
+            
+            div {
+
+                p {
+                    
+                }
+                
+            }
+        }
+        .beach-specialties {
+            width: 33%;
+
+            div {
+
+                p {
+                    
+                }
+            }
+        }
+    }
 `
 // font-family: 'Abril Fatface', cursive;
 
@@ -183,7 +277,10 @@ const BeachMenuContainer = styled.div `
 
 // font-family: 'Sigmar One', cursive;
 // font-family: 'Roboto', sans-serif;
-
+// --cinder: #08090e;
+//     --veniceBlue: #055c94;
+//     --tiara: #c6ccce;
+//     --hippieBlue: #6297b7;
 // font-family: 'Abril Fatface', cursive;
 //     display: flex;
 //     flex-direction: column;
