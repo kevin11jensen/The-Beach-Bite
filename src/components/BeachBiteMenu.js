@@ -216,7 +216,7 @@ const BeachMenuContainer = styled.div `
             display: flex;
             justify-content: flex-start;
             font-size: 1.8rem;
-            margin: 1%;
+            margin: 6% 1% 1% 1%;
         }
     }
     p {
@@ -226,7 +226,7 @@ const BeachMenuContainer = styled.div `
         @media ${device.tablet} {
             display: flex;
             justify-content: center;
-            margin: 1% 2%;
+            margin: 1% 2% 1% 2%;
         }
     }
     .beach-top-wrapper {
@@ -353,6 +353,7 @@ const BeachMenuContainer = styled.div `
         align-items: center;
         @media ${device.tablet} {
             width: 99%;
+            text-align: center;
         }
         h3 {
             margin-bottom: 0;

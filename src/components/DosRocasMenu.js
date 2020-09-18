@@ -111,6 +111,8 @@ const RocasMenuContainer = styled.div `
             display: flex;
             justify-content: center;
             font-size: 2.4rem;
+            margin: 3% 0 0 0;
+            padding: 1% 0 0 0;
         }
     }
     h4 {
@@ -122,7 +124,7 @@ const RocasMenuContainer = styled.div `
             display: flex;
             justify-content: flex-start;
             font-size: 1.8rem;
-            margin: 6% 1% 3% 1%;
+            margin: 6% 1% 1% 1%;;
         }
     }
     p {
@@ -132,7 +134,7 @@ const RocasMenuContainer = styled.div `
         @media ${device.tablet} {
             display: flex;
             justify-content: center;
-            margin: 1% 2%;
+            margin: 1% 2% 1% 2%;
         }
     }
     .rocas-top-wrapper {
@@ -216,6 +218,7 @@ const RocasMenuContainer = styled.div `
         align-items: center;
         @media ${device.tablet} {
             width: 99%;
+            text-align: center;
         }
         h3 {
             margin-bottom: 0;
